@@ -28,14 +28,15 @@ using shortcuts for stuff I repeatedly do. I looked up a few but looking at
 long videos, articles and lists was too much for me to remember.
 I wanted something interactive where I could learn by doing.
 
-I came upon Sublime Tutor which was exactly what I was looking for. It just
-wasn't made for VSCode. I still downloaded the tutor and went through the
-chapters. Wherever the shortcuts didn't work, I just looked up the ones for
-VSCode.
+I came upon [Sublime Tutor](https://sublimetutor.com/) which was exactly
+what I was looking for. It just wasn't made for VSCode. I still downloaded
+it and went through the chapters. Wherever the shortcuts didn't
+work, I just looked up the ones for VSCode and modified the instructions.
+That is what led to VSCode Tutor.
 
-This tutorial is inspired from classic vimtutor and built upon [Sublime Tutor](https://sublimetutor.com/).
+It's inspired from classic vimtutor and built upon [Sublime Tutor](https://sublimetutor.com/).
 It was originally built by Jai Pandya (hello@jai.im) for Sublime Text 3 and
-has been modified for VSCode.
+has been modified for VSCode by me.
 
 You will learn some handy shortcuts to work with Visual Studio Code. By the
 end of this tutorial, you would be familiar with VSCode's most important and
