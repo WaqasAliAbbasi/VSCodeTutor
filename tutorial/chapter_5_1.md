@@ -1,7 +1,7 @@
 Find...
 ========
 
-The most basic way of finding a word in Sublime Text is just `double clicking`
+The most basic way of finding a word in VSCode is just `double clicking`
 it. It selects the word which was double clicked and all other occurrences of
 this word are highlighted. Once you click somewhere else, you exit the search
 mode as well.
@@ -12,7 +12,7 @@ For more advanced cases, we would like to open the `Find...` panel.
 * Find - `Cmd + F`
 * Find next - `Cmd + G`
 * Find previous - `Cmd + Shift + G`
-* Find all - `Alt + Return` (when find panel is open)
+* Find all - `Option + Return` (when find panel is open)
 
 
 Exercise
@@ -24,7 +24,7 @@ Exercise
    until you get comfortable with this command.
 4. Cycle in the opposite order using `Cmd + Shift + G`, press this
    multiple times until you get comfortable with this command.
-5. Now press `Alt + Return` to find all the instances of `phone` and enter
+5. Now press `Option + Return` to find all the instances of `phone` and enter
    `multiple selection` mode described in earlier module.
 6. Press `Esc` to exit the multiple selection mode.
 7. Press `Cmd + G` or `Cmd + Shift + G` and notice that you can still search for

@@ -1,30 +1,36 @@
-Expand selection to indentation
-================================
+Expand selection to scope
+==========================
 
-If you want to select some text which is below the same indentation level as
-this text, then you can use the shortcut given below.
+* Shortcut - `Cmd + Shift + Option + right`
 
-* Shortcut - `Cmd + Shift + J`
+I love this shortcut. This is super useful in a lot of conditions. The good
+part about this shortcut is that on every consecutive press it expands to the
+immediate parent scope.
 
 
 Exercise
 ---------
 
-Use the command you learned in this unit to select the region which is indented
-at eighth level, and `unindent` it once (Using shortcut you learned in the
-previous module) to indent it at seventh level.
+1. Put your cursor at different places in the code block below
+2. try using `Cmd + Shift + Option + right` multiple times.
+3. The selection will increase on every consecutive keystroke. (i.e. Keep the
+   `Cmd`, `Shift` and `Option` keys depressed and hit the `right` key multiple times.
+   Hit `left` to shrink the selection.)
 
-```
+```js
 
-1 first line first level
-  2 second line second level
-    3 third line third level
-      4 fourth line fourth level
-        5 fifth line fifth level
-          6 sixth line sixth level
-            7 seventh line seventh level
-              8 eighth line eighth level
-              9 ninth line eighth level
-              10 tenth line eighth level
+var CommentBox = React.createClass({
+  render: function() {
+    Return (
+      <div className="commentBox">
+        Hello, world! I am a CommentBox.
+      </div>
+    );
+  }
+});
+ReactDOM.render(
+  <CommentBox />,
+  document.getElementById('content')
+);
 
 ```

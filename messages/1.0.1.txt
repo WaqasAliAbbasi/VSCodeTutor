@@ -1,7 +1,0 @@
-This version of Sublime Tutor fixes various typos, spelling errors,
-and misplaced shortcuts. I was able to test the OSX version while
-Windows and Linux version largely remains tested by the community.
-
-If you come across any issue, please report by sending an email to
-hello+sublimetutor@jai.im or opening an issue on its github
-repository.

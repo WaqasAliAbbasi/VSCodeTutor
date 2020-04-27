@@ -1,72 +1,26 @@
-Replace
-========
+Find in project
+================
 
-Find is incomplete without replace and vice versa.
+If I had an option to keep only two shortcuts in VSCode, then I would
+opt for `Goto anything` and `Find in project`. That is just to give you an
+idea, how frequently you are going to use this shortcut.
 
-There would always be cases when you would want to search for a specific term
-and get it replaced with some other term. In such cases, this shortcut would
-come in handy.
+This is equivalent to `grep` command of the shell world.
 
-* Replace panel - `Cmd + Option + F`
-* Replace next - `Cmd + Option + E`
-* Replace all - `Ctrl + Option + Return` (Only when replace panel is open)
+* Shortcut - `Cmd + Shift + F`
 
-
-Exercise
----------
-
-You have a long string with 10 underscores below. Use find and replaces panel
-to replace it with an empty string.
-
-1. Type `Cmd + Option + F` to open find and replace terminal
-2. In the find field type 10 underscores
-3. Make sure that the replace field is empty
-4. Press `Cmd + Option + E` to replace this string and move to the next one.
-5. Repeat until you replace all three string with empty strings.
-6. Press `Esc` when it is done
-7. Undo everything that you did (`Cmd + Z`)
-8. Type `Cmd + Option + F` to open find and replace terminal
-9. In the find field type 10 underscores
-10. Make sure that the replace field is empty
-11. Now press `Ctrl + Option + Return` to replace all the instances with empty
-    string.
-12. Press `Cmd + Z` multiple times to go back to the original state.
-
-
-```
-
-__________
-
-__________
-
-__________
-
-~~~~~~~~~~
-
-```
-
-
-Use selection for replace
---------------------------
-
-In the last unit you learned about a similar command for find (`Cmd + E`)
-which puts the selected term in the find panel for subsequent searches.
-
-In a similar way, this command puts the selected term in the replace field.
-
-* Shortcut - `Cmd + Shift + E`
-
-Let's try this in practice now.
+Let us search for some terms project wide and come back to this chapter then.
 
 
 Exercise
 ---------
 
-1. In the exercise block above, place your cursor anywhere on the first line
-   that contains a series of `underscore` characters.
-2. Now first press `Cmd + E` so 10 underscores take the place of find term.
-3. Now go to the fourth line which has series of `tilda` characters in it.
-4. Press `Cmd + Shift + E`, this copies the series of tilda characters in the
-   replace field of replace panel.
-5. Now press `Cmd + Option + E` four times, this should replace all three
-   strings with the series of tilda.
+1. Press `Cmd + Shift + F` to open `Find in project` panel.
+2. In the `Find` field type `class Foo` and press Return.
+3. You get a list of matched terms in a new tab. If found, the search term
+   will be highlighted. Double clicking on a line with highlighted search term
+   will automatically open the file and take us to the corresponding line
+   number.
+4. Try this will 4-5 different search terms and make yourself comfortable with
+   this command.
+5. When you done playing around with this, move to next module.

@@ -5,7 +5,7 @@ This one is super useful while writing code. When your cursor is at one
 bracket position and you want to move to other matching bracket, use this
 shortcut
 
-* Shortcut - `Ctrl + M`
+* Shortcut - `Cmd + Shift + \`
 
 
 Exercise
@@ -14,7 +14,7 @@ Exercise
 This can be best described using some code block with brackets.
 
 1. Put your cursor at the opening curly brace position
-2. Use `Ctrl + M` to move to the matching curly brace position
+2. Use `Cmd + Shift + \` to move to the matching curly brace position of the current scope
 3. Do the same with the other such pair
 
 ```js

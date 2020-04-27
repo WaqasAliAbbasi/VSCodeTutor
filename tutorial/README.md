@@ -1,36 +1,47 @@
-Sublime Tutor
+VSCode Tutor
 ==============
 
+```
+          _______  _______  _______  ______   _______ 
+|\     /|(  ____ \(  ____ \(  ___  )(  __  \ (  ____ \
+| )   ( || (    \/| (    \/| (   ) || (  \  )| (    \/
+| |   | || (_____ | |      | |   | || |   ) || (__    
+( (   ) )(_____  )| |      | |   | || |   | ||  __)   
+ \ \_/ /       ) || |      | |   | || |   ) || (      
+  \   /  /\____) || (____/\| (___) || (__/  )| (____/\
+   \_/   \_______)(_______/(_______)(______/ (_______/
+   _________            _________  _______   _______ 
+   \__   __/  |\     /| \__   __/ (  ___  ) (  ____ )
+      ) (     | )   ( |    ) (    | (   ) | | (    )|
+      | |     | |   | |    | |    | |   | | | (____)|
+      | |     | |   | |    | |    | |   | | |     __)
+      | |     | |   | |    | |    | |   | | | (\ (   
+      | |     | (___) |    | |    | (___) | | ) \ \__
+      )_(     (_______)    )_(    (_______) |/   \__/
+                               FOR VISUAL STUDIO CODE
+```
 
-         _______. __    __  .______    __       __  .___  ___.  _______
-        /       ||  |  |  | |   _  \  |  |     |  | |   \/   | |   ____|
-       |   (----`|  |  |  | |  |_)  | |  |     |  | |  \  /  | |  |__
-        \   \    |  |  |  | |   _  <  |  |     |  | |  |\/|  | |   __|
-    .----)   |   |  `--'  | |  |_)  | |  `----.|  | |  |  |  | |  |____
-    |_______/   .___________.________ |.___________.|________|.________|
-                |           |  |  |  | |           |/  __  \  |   _  \
-                `---|  |----|  |  |  | `---|  |----|  |  |  | |  |_)  |
-                    |  |    |  |  |  |     |  |    |  |  |  | |      /
-                    |  |    |  `--'  |     |  |    |  `--'  | |  |\  \----.
-                    |__|     \______/      |__|     \______/  | _| `._____|
-                                                         FOR SUBLIME TEXT 3
-
-
-Sublime Text 3 is a powerful and easy to use text editor. An ultra simple user
+Visual Studio Code is a powerful and easy to use text editor. An ultra simple user
 interface beautifully hides all the complexity behind. You can start using the
 editor without knowing any details, which is great for beginners.
 
-When I started using Sublime Text, I was a migrant from the world of TextMate
-and Vim. While a lot of keyboard shortcuts and features were similar to
-TextMate, some looked alien as well. Earlier, when I was learning Vim, I had
-found vimtutor to be of great help. In my early days with Sublime, I was
-looking for a similar solution which could interactively teach new shortcuts
-inside the editor itself.
+I had been using VSCode for a long time until I realized I could save time by
+using shortcuts for stuff I repeatedly do. I looked up a few shortcuts but
+looking at long videos, articles and lists was too much for me to remember.
+I wanted something interactive where I could learn by doing.
 
-This tutorial is inspired from classic vimtutor. You will get to learn
-some handy shortcuts to work with Sublime Text 3. By the end of this tutorial,
-you would be familiar with ST's most important and frequently used shortcuts
-and features.
+I came upon Sublime Tutor which was exactly what I was looking for. It just
+wasn't made for VSCode. I still downloaded the tutor and went through the
+chapters. Wherever the shortcuts didn't work, I just looked up the ones for
+VSCode.
+
+This tutorial is inspired from classic vimtutor and built upon Sublime Tutor.
+It was originally built by Jai Pandya (hello@jai.im) for Sublime Text 3 and
+has been modified for VSCode.
+
+You will learn some handy shortcuts to work with Visual Studio Code. By the
+end of this tutorial, you would be familiar with VSCode's most important and
+frequently used shortcuts and features.
 
 The tutorial uses spaced repetition technique to make sure that your newly
 acquired skills are well persisted.
@@ -51,24 +62,21 @@ Symbols Used in this guide
 Getting Started
 ----------------
 
-You can use `Ctrl + Option + K` keyboard shortcut anytime to open sublime tutor.
-Another option is to go to `Help > Sublime Tutor` menu option to open this.
+You can use `Ctrl + Option + K` keyboard shortcut anytime to open vscode tutor.
+Another option is to go to `Help > VSCode Tutor` menu option to open this.
 
-Tip: Invoke Sublime Text 3 from OSX command line:
+Tip: Invoke Visual Studio Code from command line:
 
-Make a symlink to `subl`. Assuming you've placed Sublime Text in `Applications`
-folder on Mac, and that you have ~/bin directory in your `PATH`, you can run:
+Follow instructions [here](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
 
-    $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+Now you can use `code` command in your terminal to open Visual Studio Code. If
+you put a `.` after the command, it will open the current directory in VSCode.
 
-Now you can use `sublime` command in your terminal to open Sublime Text 3. If
-you put a `.` after the command, it will open the current directory in Sublime.
-
-    $ sublime
+    $ code
 
 or
 
-    $ sublime .
+    $ code .
 
 
 Navigate to the first chapter
@@ -77,9 +85,6 @@ Navigate to the first chapter
 The first feature you'll learn is 'Goto anything' shortcut. Use `Cmd + P` and
 then type `1`, this would give you a list of files matched. Select
 the first option (`1.md`) using `Down` arrow key followed by `Return`.
-
-When you press `Down` arrow key, Sublime show you a preview of the contents of
-the file. You can exit it anytime by pressing `Esc` key on you keyboard.
 
 Tip:
 

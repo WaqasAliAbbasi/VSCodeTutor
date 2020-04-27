@@ -1,30 +1,47 @@
-Duplicating lines
-==================
+Transpose Letter
+=================
 
-* Duplicate a line - `Cmd + Shift + D`
+Over here VSCode follows the default functionality of OSX to transpose letters
+of a word.
 
-Put a cursor anywhere on a line and use this shortcut to create a duplicate
-copy of the line. If something is selected, then instead of the line, selection
-is copied over.
+* Transpose - `Ctrl + T`
 
 
 Exercise
 ---------
 
-In the block given below, place your cursor on first sentence in the block and
-then use the shortcut to duplicate that line. Do it for all the lines in the
-block.
+Given below are a few words which are spelled incorrectly, use the transpose
+shortcut described above to fix the issues.
+
+For example, in the first word `transpoes` which should actually be `transpose`
+place your cursor between the letters `e` and `s` and use the shortcut
+`Ctrl + T`
 
 ```
 
-1. Duplicate this line
-
-2. Duplicate this line as well
-
-3. This line also needs to be duplicated
-
-4. The last one, but once more
-
-5. The previous line lied it seems
+1. transpoes
+2. exercies
+3. shortctu
+4. edscribed
+5. usblime
 
 ```
+
+
+Shortcuts you learned in this module
+-------------------------------------
+
+* Insert line before - `Cmd + Shift + Return`
+* Insert line after - `Cmd + Return`
+* Delete to beginning of the line - `Cmd + Delete`
+* Delete to end of the line - `Ctrl + K`
+* Delete a line - `Cmd + Shift + K`
+* Cut a line - `Cmd + X`
+* Soft undo - `Cmd + U`
+* Bubble the line up - `Option + up`
+* Bubble the line down - `Option + down`
+* Duplicate a line - `Shift + Option + down`
+* Indent - `Cmd + ]`
+* Unindent - `Cmd + [`
+* Toggle comments - `Cmd + /`
+* Transpose - `Ctrl + T`

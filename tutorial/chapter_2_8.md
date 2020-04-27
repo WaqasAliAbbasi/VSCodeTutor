@@ -1,56 +1,44 @@
-Bubble the line up / down
-==========================
+Indent / Unindent
+==================
 
-If you remember from chapter 2.4 exercise 2, in order to sort the lines you
-had to cut the lines first and then paste the line back. If all you wanted 
-to do was to move the complete line above or below, you could use this 
-handy shortcut that Sublime Text provides.
+* Indent - `Cmd + ]`
+* Unindent - `Cmd + [`
 
-* Bubble the line up - `Ctrl + Cmd + up`
-* Bubble the line down - `Ctrl + Cmd + down`
+These shortcuts indent / unindent the selected lines. If no line is selected
+then the current line is moved.
 
 
 Exercise
 ---------
 
-Let's do the same exercise again using these shortcuts now.
+There are multiple lines in the block given below. Each line is indented at a
+different level. Use the shortcut learned above so that all the lines start at
+column number 4 (four spaces)
 
-1. First sort the block given below using the newly learned shortcut
-   in this unit (`Ctrl + Cmd + up`, `Ctrl + Cmd + down`)
-2. Now delete the lines using the shortcut to delete line you learned in unit 4
-   of this module. Let's see if you still remember that or not?
+There are two ways to do it.
 
-```
+1. Indent every line individually except for 8,9,10.
+2. For 8,9,10 select all three and then use `Cmd + [` five times to indent it at
+   column 4.
 
-6. This is line number six
-1. This is line number one
-6. This is line number six
-5. This is line number five
-4. This is line number four
-3. This is line number three
-2. This is line number two
-2. This is line number two
-3. This is line number three
+Another way would be quicker.
+
+1. Select the whole block
+2. Now use unindent command (`Cmd + [`) until all statements are indented at
+   first column. Now indent (`Cmd + ]`) twice to move the whole block to
+   column 4.
 
 ```
 
-
-Revision
----------
-
-Toggle the case of all the words given below. If the existing case is lower
-then make it upper, if the existing case is upper, then make it lower.
-
-```
-
-TOGGLE
-case
-OF
-all
-the
-WORDS
-of
-this
-BLOCK
+1 first line first level
+  2 second line second level
+    3 third line third level
+      4 fourth line fourth level
+        5 fifth line fifth level
+          6 sixth line sixth level
+            7 seventh line seventh level
+              8 eighth line eighth level
+              9 ninth line eighth level
+              10 tenth line eighth level
 
 ```

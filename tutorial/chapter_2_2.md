@@ -59,9 +59,8 @@ This line should have a line's gap with the previous line
 
 ```
 
-* Goto Anywhere - `Cmd + T`
 * Goto Anything - `Cmd + P`
-* Goto Symbol - `Cmd + R`
+* Goto Symbol - `Cmd + Shift + O`
 * Goto Line number - `Ctrl + G`
 
 Goto next chapter now.

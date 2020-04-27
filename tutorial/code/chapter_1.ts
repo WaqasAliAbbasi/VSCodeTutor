@@ -1,3 +1,4 @@
+/*
 # encoding: UTF-8
 # If you followed the instructions from chapter 1 of this tutorial correctly,
 # you have reached here. That means you have successfully executed Goto
@@ -9,32 +10,34 @@
 # Goto Symbol
 # ============
 #
-# 1. Press `Cmd + R` to get a list of symbols in the current file
+# 1. Press `Cmd + Shift + O` to get a list of symbols in the current file
 # 2. Type `F` to filter the class definition from the list of symbols
 # 3. Press `Return` to go to `Foo` class
-# 4. Rename the class name from `Foo` to `Bar` (`Foo` is already selected)
-# 5. Now press `Cmd + R` again and go to the definition of `bar1`
-# 6. Rename the method name from `bar1` to `bar_1`
-# 7. Now press `Cmd + R` again and go to the definition of `bar2`
-# 8. Rename the method name from `bar2` to `bar_2`
+# 4. Press `F2` to rename the class name from `Foo` to `Bar` (`Foo` is already selected)
+# 5. Now press `Cmd + Shift + O` again and go to the definition of `bar1`
+# 6. Press `F2` to rename the method name from `bar1` to `bar_1`
+# 7. Now press `Cmd + Shift + O` again and go to the definition of `bar2`
+# 8. Press `F2` to rename the method name from `bar2` to `bar_2`
+*/
 
-class Foo
-  def bar1
-    p "bar1"
-  end
+export class Foo {
+  bar1() {
+    console.log("bar1");
+  }
 
-  def bar2
-    p "bar2"
-  end
-end
+  bar2() {
+    console.log("bar2");
+  }
+}
 
+/*
 # Goto Line number
 # ==================
 #
 # 1. `Ctrl + G` gives you a goto line number palette
-# 2. Type the number `23` and press `Return` to reach this line
+# 2. Type the number `25` and press `Return` to reach this line
 # 3. Now change the quoted word to `bar_1`
-# 4. Type the number `27` and press `Return` to reach this line
+# 4. Type the number `29` and press `Return` to reach this line
 # 5. Now change the quoted word to `bar_2`
 # 6. When you are done with all the changes, press `Ctrl + Z` multiple
 #    times to get back to the original state. We plan to use them again
@@ -50,7 +53,7 @@ end
 
 # Shortcuts under your belt
 # -------------------------
-# 1. Goto Anywhere - `Cmd + T`
-# 2. Goto Anything - `Cmd + P`
-# 3. Goto Symbol - `Cmd + R`
-# 4. Goto Line number - `Ctrl + G`
+# 1. Goto Anything - `Cmd + P`
+# 2. Goto Symbol - `Cmd + Shift + O`
+# 3. Goto Line number - `Ctrl + G`
+*/

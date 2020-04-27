@@ -1,20 +1,11 @@
 Column Selection
 =================
 
-If you want to have multiple cursors in a column, then `Cmd + click`
+If you want to have multiple cursors in a column, then `Option + click`
 could become cumbersome pretty soon. For this, there is a more convenient
-method that Sublime Text provides.
+method that VSCode provides.
 
-* Column selection using mouse - `Option + click and drag`
-* Keyboard shortcut - `Ctrl + Shift + up|down`
-
-On the current version of Mac OSX, this keyboard shortcut is already bound to
-mission control. In my case, I don't use mission control a lot, so I have
-switched the key bindings for mission control off. If you also want to do the
-same, go to `Preferences -> Keyboard -> Shortcuts -> Mission Control` and
-uncheck `Mission Control` shortcut. Alternatively, you could also change the
-key-binding for column selection in Sublime Text to something else.
-
+* Keyboard shortcut - `Command + Option + up|down`
 
 Exercise
 ---------

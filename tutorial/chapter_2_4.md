@@ -6,7 +6,7 @@ location in forward or backward direction. What if you want to delete the whole
 line? This unit introduces you to a couple of shortcuts that you can use for
 the same purpose.
 
-* Delete a line - `Ctrl + Shift + K`
+* Delete a line - `Cmd + Shift + K`
 * Cut a line - `Cmd + X`
     If you put the cursor on any line and press `Cmd + X` then it would cut the
     whole line and put it in the clipboard. You can later paste it using
@@ -17,7 +17,7 @@ Exercise 1
 -----------
 
 There are some lines written below, some of them are repeated. You need to make
-sure that all the lines appear only once. Use the command `Ctrl + Shift + K` to
+sure that all the lines appear only once. Use the command `Cmd + Shift + K` to
 delete those lines.
 
 ```
@@ -42,7 +42,7 @@ There are six unique lines written below, you need to sort them and make sure
 all their duplicates are deleted. So in the end the remaining list should have
 just 6 items. To do this, use `Cmd + X` to cut a line including its line break,
 `Cmd + V` to paste that line back. Once they are sorted, delete the lines which 
-are not required using `Ctrl + Shift + K`.
+are not required using `Cmd + Shift + K`.
 
 ```
 

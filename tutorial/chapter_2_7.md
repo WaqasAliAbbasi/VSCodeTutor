@@ -1,34 +1,30 @@
-Joining lines
-==============
+Duplicating lines
+==================
 
-Sublime Text makes it conveniently easy for you to join two lines into one.
+* Duplicate a line - `Shift + Option + down`
 
-* Join two lines - `Cmd + J`
+Put a cursor anywhere on a line and use this shortcut to create a duplicate
+copy of the line. If something is selected, then instead of the line, selection
+is copied over.
 
 
 Exercise
 ---------
 
-You can notice pairs of lines below. Join the pair of lines into one to form
-one long sentence. Put the cursor anywhere on the first line and press
-`Cmd + J`
+In the block given below, place your cursor on first sentence in the block and
+then use the shortcut to duplicate that line. Do it for all the lines in the
+block.
 
 ```
 
-This is a candidate for joining with
-another sentence written on next line number.
+1. Duplicate this line
 
-This is another such example with one line spanning over
-two lines.
+2. Duplicate this line as well
 
-Join this line with
-this line to form a longer line.
+3. This line also needs to be duplicated
+
+4. The last one, but once more
+
+5. The previous line lied it seems
 
 ```
-
-
-Revision
----------
-
-Use soft undo and redo commands to trace all the steps back and forward in this
-exercise.

@@ -1,37 +1,54 @@
-Sorting lines
-==============
+Comment / Uncomment
+====================
 
-You have shown lovely progress till now. You have sorted a block of text
-two times in unit 4 and then 8. Second time, it took less time time than
-the first one. What if I tell you that you can sort lines in Sublime Text
-with just one keystroke?
+Commenting is an important feature of almost every programming language. These
+are the parts of the language that are targeting for a human and the compiler /
+interpreter ignores them. VSCode provides a shortcut to mark lines as
+comments.
 
-`F5` to the rescue.
+For different programming languages comment construct could be different. e.g.
+for `html` it is `<!-- comment -->` while for JavaScript it is `//` or `/* */`
 
-Unlike other text transformation commands, this one uses function keys to
-do the magic. To remember, correlate `5` with the shape of `S` in `S`orting.
+* Toggle comments - `Cmd + /`
 
 
 Exercise
 ---------
 
-Let's do the same exercise again using this shortcut now.
+In the block given below, some of the lines are wrapped in JavasScript comments
+`//`. Use the toggle comments keyboard shortcut learned above to uncomment
+those lines.
 
-1. First, drag select the block. Use `F5` directly to sort all these lines.
-   (which is `fn + F5` on Macbook keyboard)
-2. Now delete the lines using `delete line` shortcut you learned in unit 4 of
-   this module.
+
+```Javascript
+
+function Person(){
+
+  this.age = 0;
+  // console.log(this.age);
+
+  setInterval(() => {
+  	// console.log(this.age);
+    this.age++;
+  }, 1000);
+}
+
+var p = new Person();
 
 ```
 
-6. This is line number six
-1. This is line number one
-6. This is line number six
-5. This is line number five
-4. This is line number four
-3. This is line number three
-2. This is line number two
-2. This is line number two
-3. This is line number three
 
-```
+VSCode would wrap and unwrap given text in comment block depending upon
+the type of file used.
+
+Try changing the syntax from `Markdown` to `JavaScript` or `Ruby` by clicking
+clicking at the lower right corner of VSCode. Play with this command a
+bit then.
+
+Another way of changing the language is through command palette. (Formal intro
+will follow later in the last module). Press `Command + Shift + P` and type
+`Change Language Mode` to select language from the list of languages.
+
+While writing programs and code, commenting shortcut frequently comes in handy
+when you want to debug a section of the program. Comment out the lines of code
+that you suspect, run the program again, possibly some clue lies there.

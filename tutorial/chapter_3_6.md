@@ -2,12 +2,11 @@ Selecting content between the brackets
 =======================================
 
 While coding some stuff, it is generally a frequent requirement to select the
-content between a set of brackets. Sublime Text makes is really easy to do so.
+content between a set of brackets. VSCode makes is really easy to do so using smart select.
 
-* Shortcut - `Ctrl + Shift + M`
+* Shortcut - `Shift + Option + left/right`
 
-Place your cursor anywhere between a pair of brackets and press
-`Ctrl + Shift + M` to select the content between the two brackets.
+Place your cursor anywhere between a set of brackets and use either `Shift + Option + right` (to select until end bracket) or `Shift + Option + left` (to select until start bracket).
 
 
 Exercise
@@ -15,7 +14,7 @@ Exercise
 
 The the code segment written below select the content written in the brackets
 of the `while` condition, and replace it with `!done`. For selecting the
-content between the two brackets, use the shortcut `Ctrl + Shift + M`.
+content between the two brackets, use the shortcut `Shift + Option + left/right`.
 
 ```js
 

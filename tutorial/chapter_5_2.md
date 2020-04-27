@@ -1,54 +1,46 @@
-Incremental find
-=================
+Replace
+========
 
-I would rather skip this chapter as I personally believe it only adds to
-confusion and the `Find...` panel can be better used in place of this. But
-I'm covering this here only to make sure that you don't get confused between
-the two.
+Find is incomplete without replace and vice versa.
 
-Let's learn the shortcuts first:
+There would always be cases when you would want to search for a specific term
+and get it replaced with some other term. In such cases, this shortcut would
+come in handy.
 
-* Incremental find - `Cmd + I` (pressing again would find next)
-* Incremental find previous - `Cmd + Shift + I`
-* Incremental find all - `Option + Return` (when the find panel is open)
-
-These commands work exactly as `Find...` except for just one difference. When
-we find something using `incremental find`, pressing Return directly
-takes us to the screen where this word is selected while in the case of
-regular find `Esc` key plays that role.
-
-I'm not recommending to practice it. Though, if you wish you have the
-following exercise.
+* Replace panel - `Cmd + Option + F`
+* Replace next - `Enter`
+* Replace all - `Command + Enter` (Only when replace panel is open)
 
 
 Exercise
 ---------
 
-1. Press `Cmd + I` to open the incremental find panel
-2. Search for the term `phone` in this document
-3. Press Return to exit the incremental find. If found, the search
-   term will be preselected in the document.
-4. Press `Cmd + I` and type `phone` again.
-3. Cycle through all the occurrences using `Cmd + I`, press this multiple times
-   until you get comfortable with this command.
-4. Cycle in the opposite order using `Cmd + Shift + I`, press this multiple
-   times until you get comfortable with this command.
-5. Now press `Option + Return` to find all the instances of `phone` and enter
-   `multiple selection` mode described in earlier module.
-6. Press `Esc` to exit the multiple selection mode.
+You have a long string with 10 underscores below. Use find and replaces panel
+to replace it with an empty string.
+
+1. Type `Cmd + Option + F` to open find and replace terminal
+2. In the find field type 10 underscores
+3. Make sure that the replace field is empty
+4. Press `Enter` to replace this string and move to the next one.
+5. Repeat until you replace all three string with empty strings.
+6. Press `Esc` when it is done
+7. Undo everything that you did (`Cmd + Z`)
+8. Type `Cmd + Option + F` to open find and replace terminal
+9. In the find field type 10 underscores
+10. Make sure that the replace field is empty
+11. Now press `Command + Enter` to replace all the instances with empty
+    string.
+12. Press `Cmd + Z` to go back to the original state.
+
 
 ```
 
-phone
-windows
-iOS
-OSX
-linux
-ubuntu
-phone
-ubuntu
-iOS
-phone
-windows
+__________
+
+__________
+
+__________
+
+~~~~~~~~~~
 
 ```
