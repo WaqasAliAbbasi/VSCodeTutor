@@ -21,13 +21,12 @@ VSCode Tutor
                                FOR VISUAL STUDIO CODE
 ```
 
-Visual Studio Code is a powerful and easy to use text editor. An ultra simple user
-interface beautifully hides all the complexity behind. You can start using the
-editor without knowing any details, which is great for beginners.
+Visual Studio Code is a powerful and easy to use text editor. You can start
+using the editor without knowing any details, which is great for beginners.
 
 I had been using VSCode for a long time until I realized I could save time by
-using shortcuts for stuff I repeatedly do. I looked up a few shortcuts but
-looking at long videos, articles and lists was too much for me to remember.
+using shortcuts for stuff I repeatedly do. I looked up a few but looking at
+long videos, articles and lists was too much for me to remember.
 I wanted something interactive where I could learn by doing.
 
 I came upon Sublime Tutor which was exactly what I was looking for. It just
@@ -61,9 +60,6 @@ Symbols Used in this guide
 
 Getting Started
 ----------------
-
-You can use `Ctrl + Option + K` keyboard shortcut anytime to open vscode tutor.
-Another option is to go to `Help > VSCode Tutor` menu option to open this.
 
 Tip: Invoke Visual Studio Code from command line:
 

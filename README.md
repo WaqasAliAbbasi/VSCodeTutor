@@ -21,13 +21,12 @@ VSCode Tutor
                                FOR VISUAL STUDIO CODE
 ```
 
-Visual Studio Code is a powerful and easy to use text editor. An ultra simple user
-interface beautifully hides all the complexity behind. You can start using the
-editor without knowing any details, which is great for beginners.
+Visual Studio Code is a powerful and easy to use text editor. You can start
+using the editor without knowing any details, which is great for beginners.
 
 I had been using VSCode for a long time until I realized I could save time by
-using shortcuts for stuff I repeatedly do. I looked up a few shortcuts but
-looking at long videos, articles and lists was too much for me to remember.
+using shortcuts for stuff I repeatedly do. I looked up a few but looking at
+long videos, articles and lists was too much for me to remember.
 I wanted something interactive where I could learn by doing.
 
 I came upon Sublime Tutor which was exactly what I was looking for. It just
@@ -79,17 +78,12 @@ Contributing
    If you went through the course and think a particular thing can be done in
    a different way, you want a feature covered, or there was something that you
    specially liked, please let me know via a
-   [tweet](https://twitter.com/jaipandya/) or
-   [email](mailto:hello@jai.im?Subject=Feedback%20On%20Sublime%20Tutor)
+   [tweet](https://twitter.com/totally_waqas/) or
+   [email](mailto:waqas.abbasi@outlook.com?Subject=Feedback%20On%20VSCode%20Tutor)
 2. **Issues** -
    Found an issue? Typo, error or a topic needs more details, please create an
-   issue by going to https://github.com/jaipandya/sublimetutor/issues
+   issue by going to https://github.com/WaqasAliAbbasi/vscodetutor/issues
 2. **Pull request** -
    Are you comfortable with git? If you know solution to any of the issues
    listed above, fork the repository, make your changes and create a PR with
    your changes. Refer to the branches section below while making these changes.
-
-### Branches
-
-All osx platform related changes go in the `master` branch of this repository
-while all windows / linux related changes go in `win/linux` branch.
