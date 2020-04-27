@@ -1,5 +1,4 @@
-Goto Anything (`Cmd + P`)
-=======================
+# Goto Anything (`Cmd + P`)
 
 Give yourself a pat on the back. You just used your first keyboard shortcut.
 

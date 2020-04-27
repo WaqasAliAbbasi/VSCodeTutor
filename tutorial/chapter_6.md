@@ -1,44 +1,24 @@
-Other commands
-===============
+# Other commands
 
 There are two other frequently used commands which are specific to VSCode
 setting and its Python console.
 
+# VSCode Settings
 
-VSCode Settings
-======================
-
-* Shortcut - `Cmd + ,`
+- Shortcut - `Cmd + ,`
 
 This gives you VSCode User settings. It is a json file where you can
 override the default VSCode settings. `Code -> Preferences -> Settings`
 
-
-Command Palette
-================
+# Command Palette
 
 This is a frequently visited place for all the advanced users of VSCode
 You get a list of commands which come baked by default from VSCode HQ, as
 well as commands added by extensions.
 
-* Shortcut - `Cmd + Shift + P`
+- Shortcut - `Cmd + Shift + P`
 
-
-Exercise
----------
-
-If you haven't seen it yet, there is a command entry for VSCode Tutor there.
-
-1. Press the shortcut for the command palette: `Cmd + Shift + P`
-2. Enter `VSCode Tutor` words in the command palette.
-3. Select the first command you get there.
-
-You can spend some time gazing through the commands listed there and feel free
-to play with them.
-
-
-Conclusion
-===========
+# Conclusion
 
 Congratulations! This concludes the course for you. You spent hours with VSCode
 Tutor, learning new features and shortcuts supported by VSCode. I hope you

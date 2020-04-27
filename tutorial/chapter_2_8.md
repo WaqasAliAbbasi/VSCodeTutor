@@ -1,15 +1,12 @@
-Indent / Unindent
-==================
+# Indent / Unindent
 
-* Indent - `Cmd + ]`
-* Unindent - `Cmd + [`
+- Indent - `Cmd + ]`
+- Unindent - `Cmd + [`
 
 These shortcuts indent / unindent the selected lines. If no line is selected
 then the current line is moved.
 
-
-Exercise
----------
+## Exercise
 
 There are multiple lines in the block given below. Each line is indented at a
 different level. Use the shortcut learned above so that all the lines start at

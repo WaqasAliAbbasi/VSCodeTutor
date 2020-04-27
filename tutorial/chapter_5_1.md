@@ -1,5 +1,4 @@
-Find...
-========
+# Find...
 
 The most basic way of finding a word in VSCode is just `double clicking`
 it. It selects the word which was double clicked and all other occurrences of
@@ -8,15 +7,12 @@ mode as well.
 
 For more advanced cases, we would like to open the `Find...` panel.
 
+- Find - `Cmd + F`
+- Find next - `Cmd + G`
+- Find previous - `Cmd + Shift + G`
+- Find all - `Option + Return` (when find panel is open)
 
-* Find - `Cmd + F`
-* Find next - `Cmd + G`
-* Find previous - `Cmd + Shift + G`
-* Find all - `Option + Return` (when find panel is open)
-
-
-Exercise
----------
+## Exercise
 
 1. Press `Cmd + F` to open the find panel
 2. Search for the term `phone` in this document
@@ -47,19 +43,15 @@ windows
 
 ```
 
+## Use selection for find
 
-Use selection for find
------------------------
-
-* Shortcut - `Cmd + E`
+- Shortcut - `Cmd + E`
 
 This commands puts the selection or the word on which the cursor is pointing
 into the find buffer. So next time when you open find panel, or press `Cmd + G`
 this search term is used for finding stuff.
 
-
-Exercise
----------
+## Exercise
 
 In the text block given above, put your cursor on the word `ubuntu` and then
 press `Cmd + G`, you'll notice that it now finds `ubuntu` word on subsequent

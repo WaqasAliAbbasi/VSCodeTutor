@@ -1,7 +1,6 @@
-Search symbol in project
-=========================
+# Search symbol in project
 
-* Shortcut - `Cmd + T`
+- Shortcut - `Cmd + T`
 
 When you open a project in VSCode, it automatically starts indexing
 symbols defined in it. As a result, when you fire this command, it

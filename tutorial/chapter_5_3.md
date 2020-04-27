@@ -1,5 +1,4 @@
-Find in project
-================
+# Find in project
 
 If I had an option to keep only two shortcuts in VSCode, then I would
 opt for `Goto anything` and `Find in project`. That is just to give you an
@@ -7,13 +6,11 @@ idea, how frequently you are going to use this shortcut.
 
 This is equivalent to `grep` command of the shell world.
 
-* Shortcut - `Cmd + Shift + F`
+- Shortcut - `Cmd + Shift + F`
 
 Let us search for some terms project wide and come back to this chapter then.
 
-
-Exercise
----------
+## Exercise
 
 1. Press `Cmd + Shift + F` to open `Find in project` panel.
 2. In the `Find` field type `class Foo` and press Return.

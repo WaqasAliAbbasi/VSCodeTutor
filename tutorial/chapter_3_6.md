@@ -1,31 +1,24 @@
-Selecting content between the brackets
-=======================================
+# Expand selection to scope
 
-While coding some stuff, it is generally a frequent requirement to select the
-content between a set of brackets. VSCode makes is really easy to do so using smart select.
+- Shortcut - `Control + Shift + Command + left/right`
 
-* Shortcut - `Shift + Option + left/right`
+I love this shortcut. This is super useful in a lot of conditions. The good
+part about this shortcut is that on every consecutive press it expands to the
+immediate parent scope.
 
-Place your cursor anywhere between a set of brackets and use either `Shift + Option + right` (to select until end bracket) or `Shift + Option + left` (to select until start bracket).
+## Exercise
 
-
-Exercise
----------
-
-The the code segment written below select the content written in the brackets
-of the `while` condition, and replace it with `!done`. For selecting the
-content between the two brackets, use the shortcut `Shift + Option + left/right`.
+1. Put your cursor at different places in the code block below
+2. try using `Control + Shift + Command + right` multiple times.
+3. The selection will increase on every consecutive keystroke. (i.e. Keep the
+   `Control`, `Shift` and `Command` keys depressed and hit the `right` key multiple times.
+   Hit `left` to shrink the selection.)
 
 ```js
-
-var done = false;
-var counter = 1;
-while ( 'some long variable which is a truthy value' ) {
-  console 'running'
-  if (counter > 10) {
-    done = true;
-  }
-  counter += 1;
-}
-
+var CommentBox = React.createClass({
+  render: function () {
+    return <div className="commentBox">Hello, world! I am a CommentBox.</div>;
+  },
+});
+ReactDOM.render(<CommentBox />, document.getElementById("content"));
 ```

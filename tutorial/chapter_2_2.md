@@ -1,22 +1,18 @@
-Delete word back / forward
-===========================
+# Delete word back / forward
 
-* Delete the word backward - `Option + Delete`
+- Delete the word backward - `Option + Delete`
 
 If the cursor is in the middle of a word, it deletes the word from the cursor
 position to the beginning of this word. If the cursor is placed at the word
 beginning or whitespace, then it deletes the previous word.
 
-
-* Delete the word forward - `fn + Option + Delete`
+- Delete the word forward - `fn + Option + Delete`
 
 If the cursor is in the middle of a word, it deletes the word from the cursor
 position to the end of this word. If the cursor is placed at the word end or
 whitespace, then it deletes the next word.
 
-
-Exercise 1
------------
+## Exercise 1
 
 The block given below has some words which are spelled incorrectly. Place your
 cursor inside those words so that you can use the two shortcuts you learned
@@ -29,9 +25,7 @@ incorrectly. Correct tttthem using deleteee word back / forwardddd shortcutssss.
 
 ```
 
-
-Exercise 2
------------
+## Exercise 2
 
 The block below has some words that need to be deleted. Move your cursor to the
 end of the word that needs to be deleted and use `Option + Delete` shortcut to
@@ -43,9 +37,7 @@ There are a some words fun that don't belong paper in this sentence.
 
 ```
 
-
-Revision
----------
+## Revision
 
 You studied a couple of shortcuts to insert a line before and after. Place your
 cursor on the line with `<==` below. Use the shortcut to add line before and
@@ -59,8 +51,8 @@ This line should have a line's gap with the previous line
 
 ```
 
-* Goto Anything - `Cmd + P`
-* Goto Symbol - `Cmd + Shift + O`
-* Goto Line number - `Ctrl + G`
+- Goto Anything - `Cmd + P`
+- Goto Symbol in current file - `Cmd + Shift + O`
+- Goto Line number - `Control + G`
 
 Goto next chapter now.

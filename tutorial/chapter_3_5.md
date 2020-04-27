@@ -1,14 +1,11 @@
-Selecting lines
-================
+# Selecting lines
 
 If you want to select a line, use the `Cmd + L` shortcut. Pressing it again
 selects next line consecutively.
 
-* Shortcut - `Cmd + L`
+- Shortcut - `Cmd + L`
 
-
-Exercise
----------
+## Exercise
 
 In the block given below, select the line with `<==` mark on them. Use the
 shortcut you learned in this unit to do so. Once all four lines are selected,

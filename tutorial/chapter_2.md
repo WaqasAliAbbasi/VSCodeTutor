@@ -1,5 +1,4 @@
-Editing text
-=============
+# Editing text
 
 In this module we'll learn some important quick editing actions supported by
 VSCode. This would include indenting blocks, inserting line, deleting

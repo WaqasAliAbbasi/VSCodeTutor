@@ -1,5 +1,4 @@
-Find / Replace
-===============
+# Find / Replace
 
 Visual Studio Code provides you multiple ways to find a text block. Depending upon
 the situation / condition one or the other method could be used. You can

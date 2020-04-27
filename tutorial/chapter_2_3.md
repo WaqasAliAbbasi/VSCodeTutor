@@ -1,12 +1,9 @@
-Delete to end / beginning of the line
-======================================
+# Delete to end / beginning of the line
 
-* Delete to beginning of the line - `Cmd + Delete`
-* Delete to end of the line - `Ctrl + K`
+- Delete to beginning of the line - `Cmd + Delete`
+- Delete to end of the line - `Control + K`
 
-
-Exercise
----------
+## Exercise
 
 I made some deliberate typos when I was writing some sentences given below.
 Use your new found knowledge in this unit to delete the typos in those
@@ -32,11 +29,9 @@ Create a new file with `Cmd + N`, copy and paste the contents of this file and
 then delete all the lines one by one using the shortcuts you learned in this
 chapter. (select all, copy and paste have usual system level shortcuts)
 
+## Revision
 
-Revision
----------
-
-* Delete word back - `Option + Delete`
-* Delete word forward - `fn + Option + Delete`
-* Insert line after - `Cmd + Return`
-* Insert line before - `Cmd + Shift + Return`
+- Delete word back - `Option + Delete`
+- Delete word forward - `fn + Option + Delete`
+- Insert line after - `Cmd + Return`
+- Insert line before - `Cmd + Shift + Return`

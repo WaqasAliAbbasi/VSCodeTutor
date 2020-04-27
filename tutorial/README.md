@@ -1,21 +1,20 @@
-VSCode Tutor
-==============
+# VSCode Tutor
 
 ```
-          _______  _______  _______  ______   _______ 
+          _______  _______  _______  ______   _______
 |\     /|(  ____ \(  ____ \(  ___  )(  __  \ (  ____ \
 | )   ( || (    \/| (    \/| (   ) || (  \  )| (    \/
-| |   | || (_____ | |      | |   | || |   ) || (__    
-( (   ) )(_____  )| |      | |   | || |   | ||  __)   
- \ \_/ /       ) || |      | |   | || |   ) || (      
+| |   | || (_____ | |      | |   | || |   ) || (__
+( (   ) )(_____  )| |      | |   | || |   | ||  __)
+ \ \_/ /       ) || |      | |   | || |   ) || (
   \   /  /\____) || (____/\| (___) || (__/  )| (____/\
    \_/   \_______)(_______/(_______)(______/ (_______/
-   _________            _________  _______   _______ 
+   _________            _________  _______   _______
    \__   __/  |\     /| \__   __/ (  ___  ) (  ____ )
       ) (     | )   ( |    ) (    | (   ) | | (    )|
       | |     | |   | |    | |    | |   | | | (____)|
       | |     | |   | |    | |    | |   | | |     __)
-      | |     | |   | |    | |    | |   | | | (\ (   
+      | |     | |   | |    | |    | |   | | | (\ (
       | |     | (___) |    | |    | (___) | | ) \ \__
       )_(     (_______)    )_(    (_______) |/   \__/
                                FOR VISUAL STUDIO CODE
@@ -34,7 +33,7 @@ wasn't made for VSCode. I still downloaded the tutor and went through the
 chapters. Wherever the shortcuts didn't work, I just looked up the ones for
 VSCode.
 
-This tutorial is inspired from classic vimtutor and built upon Sublime Tutor.
+This tutorial is inspired from classic vimtutor and built upon [Sublime Tutor](https://sublimetutor.com/).
 It was originally built by Jai Pandya (hello@jai.im) for Sublime Text 3 and
 has been modified for VSCode.
 
@@ -45,21 +44,17 @@ frequently used shortcuts and features.
 The tutorial uses spaced repetition technique to make sure that your newly
 acquired skills are well persisted.
 
-
-Symbols Used in this guide
----------------------------
+## Symbols Used in this guide
 
     Cmd – the Command Key symbol
-    Ctrl - the Control Key symbol
+    Control - the Control Key symbol
     Option – the Option Key symbol
     Shift – the Shift Key symbol
     Esc – the Escape Key symbol
     Return – the Return symbol
     Delete – the Delete / Backspace symbol
 
-
-Getting Started
-----------------
+## Getting Started
 
 Tip: Invoke Visual Studio Code from command line:
 
@@ -74,14 +69,12 @@ or
 
     $ code .
 
-
-Navigate to the first chapter
-------------------------------
+## Navigate to the first chapter
 
 The first feature you'll learn is 'Goto anything' shortcut. Use `Cmd + P` and
 then type `1`, this would give you a list of files matched. Select
-the first option (`1.md`) using `Down` arrow key followed by `Return`.
+the first option (`chapter_1.md`) using `Down` arrow key followed by `Return`.
 
 Tip:
 
-If you want to see contents of this tutorial, you can open contents.md anytime.
+If you want to see summary of any module, you can open `contents.md` anytime.

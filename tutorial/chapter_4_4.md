@@ -1,15 +1,12 @@
-Goto matching bracket
-======================
+# Goto matching bracket
 
 This one is super useful while writing code. When your cursor is at one
 bracket position and you want to move to other matching bracket, use this
 shortcut
 
-* Shortcut - `Cmd + Shift + \`
+- Shortcut - `Cmd + Shift + \`
 
-
-Exercise
----------
+## Exercise
 
 This can be best described using some code block with brackets.
 
@@ -18,15 +15,13 @@ This can be best described using some code block with brackets.
 3. Do the same with the other such pair
 
 ```js
-
 function person(firstName, lastName, age, eyeColor) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.age = age;
-    this.eyeColor = eyeColor;
-    this.changeName = function (name) {
-        this.lastName = name;
-    };
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.age = age;
+  this.eyeColor = eyeColor;
+  this.changeName = function (name) {
+    this.lastName = name;
+  };
 }
-
 ```
